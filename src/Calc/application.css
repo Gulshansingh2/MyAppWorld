@@ -1,0 +1,14 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+.Button
+{
+	-fx-background-color: #00cccc;
+	-fx-text-fill: white;
+}
+
+
+.Cbutton
+{
+	-fx-background-color: #ff944d;
+}
+

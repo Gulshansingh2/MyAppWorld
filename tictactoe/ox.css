@@ -1,0 +1,76 @@
+body{
+      background-color:black;
+	  background-image:url(LUCID.jpg);
+	  background-repeat:no-repeat;
+	  background-position:center;
+   }
+#C1 input{
+    height: 30px;
+	border: 2px solid red;
+	-webkit-box-ordinal-group: 2;
+	-webkit-box-flex: 1;
+    -webkit-border-radius:10px;
+    opacity:0.6;
+    -webkit-transition:-webkit-transform 1s,opacity 1s,background 1s,width 1s,height 1s;
+}
+
+#C1 input:hover{
+    -webkit-transform: rotate(360deg);
+    opacity: 1;
+	background-color:silver
+}
+
+#B1{
+    font:bold 20px Tahoma;
+	padding: 10px;
+	border:2px solid black;
+	width:220px;
+	margin:20px auto;
+	text-align:left;
+    display:-webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-box-flex: 1;
+	-webkit-border-radius:10px;
+	-webkit-box-shadow:rgba(110,110,110,.6) -10px 10px 10px;
+    /*-webkit-transform:scale(1.2,1) scale(-1,1) translate(150px,200px) rotate(45deg) skew(10deg);*/
+}
+
+#A1{
+	position:absolute;
+	top:20px;
+	padding: 0px;
+	border:2px solid black;
+	width:320px;
+	margin-left:10px;
+    display:-webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-box-flex: 1;
+	-webkit-border-radius:2px;
+	-webkit-box-shadow:rgba(20,10,10,.6) -10px 10px 10px;
+    /*-webkit-transform:scale(1.2,1) scale(-1,1) translate(150px,200px) rotate(45deg) skew(10deg);*/
+}
+
+h1{
+	font:bold 30px Tahoma;
+	text-align:center;
+	color:rgba(20,20,20,.6);
+}
+
+#D1 input{
+    height: 30px;
+	border: 2px solid red;
+	position:absolute;
+	top:420px;
+	left:150px;
+	-webkit-box-ordinal-group: 2;
+	-webkit-box-flex: 1;
+    -webkit-border-radius:10px;
+    opacity:0.6;
+    -webkit-transition:-webkit-transform 1s,opacity 1s,background 1s,width 1s,height 1s;
+}
+
+#D1 input:hover{
+    -webkit-transform: matrix(1, 0, 0, 1, 1, 1);
+    opacity: 1;
+	background-color:silver
+}

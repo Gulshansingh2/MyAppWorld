@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+
+<AnchorPane prefHeight="300.0" prefWidth="400.0" stylesheets="@application.css" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Calc.CalcMainController">
+   <children>
+      <TextField fx:id="textfield" prefHeight="50.0" prefWidth="400.0" styleClass="textfield" />
+      <HBox layoutY="40.0" AnchorPane.topAnchor="50.0">
+         <children>
+            <Button mnemonicParsing="false" onAction="#operateButton" prefHeight="50.0" prefWidth="100.0" styleClass="Button" text="7" />
+            <Button mnemonicParsing="false" onAction="#operateButton" prefHeight="50.0" prefWidth="100.0" styleClass="Button" text="8" />
+            <Button mnemonicParsing="false" onAction="#operateButton" prefHeight="50.0" prefWidth="100.0" styleClass="Button" text="9" />
+            <Button mnemonicParsing="false" onAction="#operateButton" prefHeight="50.0" prefWidth="100.0" styleClass="Button" text="/" />
+         </children>
+      </HBox>
+      <HBox layoutX="10.0" layoutY="50.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="100.0">
+         <children>
+            <Button mnemonicParsing="false" onAction="#operateButton" prefHeight="50.0" prefWidth="100.0" styleClass="Button" text="4" />
+            <Button mnemonicParsing="false" onAction="#operateButton" prefHeight="50.0" prefWidth="100.0" styleClass="Button" text="5" />
+            <Button mnemonicParsing="false" onAction="#operateButton" prefHeight="50.0" prefWidth="100.0" styleClass="Button" text="6" />
+            <Button mnemonicParsing="false" onAction="#operateButton" prefHeight="50.0" prefWidth="100.0" styleClass="Button" text="*" />
+         </children>
+      </HBox>
+      <HBox layoutY="150.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="150.0">
+         <children>
+            <Button mnemonicParsing="false" onAction="#operateButton" prefHeight="50.0" prefWidth="100.0" styleClass="Button" text="1" />
+            <Button mnemonicParsing="false" onAction="#operateButton" prefHeight="50.0" prefWidth="100.0" styleClass="Button" text="2" />
+            <Button mnemonicParsing="false" onAction="#operateButton" prefHeight="50.0" prefWidth="100.0" styleClass="Button" text="3" />
+            <Button mnemonicParsing="false" onAction="#operateButton" prefHeight="50.0" prefWidth="100.0" styleClass="Button" text="-" />
+         </children>
+      </HBox>
+      <HBox layoutY="200.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="200.0">
+         <children>
+            <Button mnemonicParsing="false" onAction="#operateButton" prefHeight="50.0" prefWidth="100.0" styleClass="Button" text="0" />
+            <Button mnemonicParsing="false" onAction="#operateButton" prefHeight="50.0" prefWidth="100.0" styleClass="Button" text="." />
+            <Button mnemonicParsing="false" onAction="#operateButton" prefHeight="50.0" prefWidth="100.0" styleClass="Button" text="=" />
+            <Button mnemonicParsing="false" onAction="#operateButton" prefHeight="50.0" prefWidth="100.0" styleClass="Button" text="+" />
+         </children>
+      </HBox>
+      <Button layoutY="250.0" mnemonicParsing="false" onAction="#operateButton" prefHeight="50.0" prefWidth="400.0" styleClass="Cbutton" text="C" />
+   </children>
+</AnchorPane>
